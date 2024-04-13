@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7a6e35f90697416aa74c5f5bbe0ed569" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.Order" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.OrderProduct" Width="1.5" PointX="5.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.OrderStatu" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.PickupPoint" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ProductCategory" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ProductIUnit" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ProductManufacturer" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.ProductSupplier" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Role" Width="1.5" PointX="1.5" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.User" Width="1.5" PointX="0.75" PointY="18.375" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__Order__OrderClie__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Order__OrderPick__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Order__OrderStat__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__OrderProd__Order__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__OrderProd__Produ__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Product__Product__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Product__Product__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Product__Product__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Product__Product__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__User__UserRole__534D60F1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Praktiika.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Praktiika"
+        mc:Ignorable="d"
+        Title="Authorization" Height="400" Width="300">
+       <Grid >
+        <StackPanel>
+            <Label Content="Логин" Foreground="#498C5C"></Label>
+            <TextBox Name="tbLogin"></TextBox>
+            <Label Content="Пароль" Foreground="#498C5C"></Label>
+            <PasswordBox Name="tbPassword"></PasswordBox>
+
+            <StackPanel Name="spCaptcha" Visibility="Visible">
+                <Canvas Name="canvas" Height="60"></Canvas>
+                <TextBox Name="tbCaptcha"></TextBox>
+            </StackPanel>
+
+            <Button Click="OnSingIn" Content="Войти" Width="200" Margin="10" Foreground="#498C5C" ></Button>
+        </StackPanel>
+    </Grid>
+</Window>
